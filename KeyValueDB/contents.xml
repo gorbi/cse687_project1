@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Requirement 10 - contents of the project-->
+  <Database>
+    <Entry>
+      <Key>
+        NoSqlDb
+      </Key>
+      <Name>
+        NoSqlDb
+      </Name>
+      <Category>
+        Application
+      </Category>
+      <Description>
+        KeyValueDB which supports insertion, deletion, updation and query on its elements
+      </Description>
+      <DateTime>
+        2017-02-09T20:16:10
+      </DateTime>
+      <Children>
+        <Child>
+          XmlDocument
+        </Child>
+        <Child>
+          Convert
+        </Child>
+        <Child>
+          CppProperties
+        </Child>
+      </Children>
+      <Data>
+        Entire contents of NoSqlDb.h
+      </Data>
+    </Entry>
+    <Entry>
+      <Key>
+        XmlDocument
+      </Key>
+      <Name>
+        XmlDocument
+      </Name>
+      <Category>
+        Library
+      </Category>
+      <Description>
+        XmlDocument which supports XML creation and parser
+      </Description>
+      <DateTime>
+        2015-06-01T20:16:10
+      </DateTime>
+      <Children>
+        <Child>
+          Utilities
+        </Child>
+      </Children>
+      <Data>
+        Entire contents of XmlDocument.h
+      </Data>
+    </Entry>
+    <Entry>
+      <Key>
+        Convert
+      </Key>
+      <Name>
+        Convert
+      </Name>
+      <Category>
+        Library
+      </Category>
+      <Description>
+        Provides support to convert any template data to string and create the same data type from string
+      </Description>
+      <DateTime>
+        2015-05-01T20:16:10
+      </DateTime>
+      <Children>
+        <Child>
+          Utilities
+        </Child>
+      </Children>
+      <Data>
+        Entire contents of Convert.h
+      </Data>
+    </Entry>
+    <Entry>
+      <Key>
+        CppProperties
+      </Key>
+      <Name>
+        CppProperties
+      </Name>
+      <Category>
+        Library
+      </Category>
+      <Description>
+        Provides encapsulated properties for C++ and getter, setter functions can be customized without changing
+      </Description>
+      <DateTime>
+        2013-04-01T20:16:10
+      </DateTime>
+      <Children>
+      </Children>
+      <Data>
+        Entire contents of CppProperties.h
+      </Data>
+    </Entry>
+    <Entry>
+      <Key>
+        Utilities
+      </Key>
+      <Name>
+        Utilities
+      </Name>
+      <Category>
+        Library
+      </Category>
+      <Description>
+        Provides utilities for formatting the output in the console
+      </Description>
+      <DateTime>
+        2012-04-01T20:16:10
+      </DateTime>
+      <Children>
+      </Children>
+      <Data>
+        Entire contents of Utilities.h
+      </Data>
+    </Entry>
+  </Database>
